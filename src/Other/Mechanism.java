@@ -1,4 +1,6 @@
-public class Mechanism extends Component{
+package Other;
+
+public class Mechanism extends Product{
 
     protected boolean isWorking;
     public Mechanism(){
@@ -9,9 +11,9 @@ public class Mechanism extends Component{
     public void Show() {
         super.Show();
         if(isWorking){
-        System.out.println("Mechanism is working");
+        System.out.println("Other.Mechanism is working");
         }else{
-            System.out.println("Mechanism isn't working");
+            System.out.println("Other.Mechanism isn't working");
         }
     }
 }

@@ -1,4 +1,6 @@
-public class Node extends Product{
+package Other;
+
+public class Node extends Mechanism{
     protected String type;
 
     public Node(){

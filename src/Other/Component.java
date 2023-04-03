@@ -1,4 +1,6 @@
-public class Component extends Product {
+package Other;
+
+public class Component extends Mechanism {
     protected double size;
 
     public Component(){

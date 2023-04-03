@@ -1,3 +1,5 @@
+package Other;
+
 public abstract class Product {
     protected String Date;
 

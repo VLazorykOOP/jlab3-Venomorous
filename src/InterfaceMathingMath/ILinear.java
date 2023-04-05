@@ -1,16 +1,16 @@
-package mathingMath;
+package InterfaceMathingMath;
 
-public class Linear extends Root{
+public class ILinear implements IRoot {
 
     private double k;
     private double x;
     private double b;
-    public Linear(){
+    public ILinear(){
         this.k = 0;
         this.b = 0;
     }
 
-    public Linear(double k, double x, double b){
+    public ILinear(double k, double x, double b){
         this.k = k;
         this.b = b;
         this.x = x;

@@ -1,4 +1,5 @@
 import Electrocar.*;
+import mathingMath.*;
 //import Other.Component;
 //import Other.Mechanism;
 //import Other.Node;
@@ -49,6 +50,9 @@ public class Main {
 //        System.out.println("Electronics control system: " + electronics.getControlSystem());
 //        System.out.println("Steering type: " + steering.getSteeringType());
 //        System.out.println("Component power: " + component.getPower() + ", weight: " + component.getWeight());
+
+        Linear lin = new Linear();
+
     }
 }
 

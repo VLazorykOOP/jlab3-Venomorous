@@ -1,6 +1,6 @@
 package Other;
 
-public class Mechanism extends Product{
+public class Mechanism extends Component{
 
     protected boolean isWorking;
     public Mechanism(){

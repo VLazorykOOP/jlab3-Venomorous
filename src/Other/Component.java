@@ -1,6 +1,6 @@
 package Other;
 
-public class Component extends Mechanism {
+public class Component extends Product {
     protected double size;
 
     public Component(){

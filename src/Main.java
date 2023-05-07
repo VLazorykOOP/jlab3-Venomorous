@@ -1,9 +1,7 @@
-import Electrocar.*;
+//import Electrocar.*;
 import InterfaceMathingMath.*;
 import mathingMath.*;
-//import Other.Component;
-//import Other.Mechanism;
-//import Other.Node;
+import Product.*;
 
 
 //        System.out.println("----------------------------------------------------------------");
@@ -76,6 +74,17 @@ public class Main {
         //-------------------------------------------------------------------------
         ISquare Iquad = new ISquare(5,6,7, 8);
         Iquad.print();
+
+        Product[] products = new Product[3];
+
+        products[0] = new Component("Component 1", 10.99, "Metal");
+        products[1] = new Node("Node 1", 5.99, "Plastic", 1);
+        products[2] = new Mechanism("Mechanism 1", 15.99, "Metal", "Rotating");
+
+        for (Product product : products) {
+            product.show();
+            System.out.println();
+        }
     }
 }
 

@@ -1,6 +1,6 @@
 package Other;
 
-public class Node extends Mechanism{
+public class Node extends Component{
     protected String type;
 
     public Node(){

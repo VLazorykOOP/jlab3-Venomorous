@@ -2,6 +2,7 @@
 import InterfaceMathingMath.*;
 import mathingMath.*;
 import Product.*;
+import java.util.Scanner;
 
 
 //        System.out.println("----------------------------------------------------------------");
@@ -85,6 +86,28 @@ public class Main {
             product.show();
             System.out.println();
         }
+
+        String name, material, type;
+        int nodeId;
+        double price;
+
+        Scanner scan = new Scanner(System.in);
+        Product[] tests = new Product[3];
+        tests[0] = new Component();
+        tests[1] = new Mechanism();
+        tests[2] = new Node();
+
+        System.out.println("Enter the name of the component: ");
+        name = scan.nextLine();
+        tests[0].SetName(name);
+        System.out.println("Enter the price of the component: ");
+        price = scan.nextDouble();
+        tests[0].SetPrice(price);
+        System.out.println("Enter the material of the component: ");
+        material = scan.nextLine();
+//        tests[0].setMaterial(material);
+        tests[0].show();
+
     }
 }
 

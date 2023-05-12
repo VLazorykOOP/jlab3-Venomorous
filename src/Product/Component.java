@@ -22,6 +22,7 @@ public class Component extends Product {
 
     @Override
     public void show() {
+        System.out.println("Component:");
         super.show();
         System.out.println("Material: " + getMaterial());
     }

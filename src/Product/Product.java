@@ -12,23 +12,23 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-    public void SetName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public void SetPrice(double price){
+    public void setPrice(double price){
         this.price = price;
     }
 
-    String GetName(){
+    String getName(){
         return name;
     }
 
-    double GetPrice(){
+    double getPrice(){
         return price;
     }
 
     public void show() {
-        System.out.println("Product: " + GetName());
-        System.out.println("Price: $" + GetPrice());
+        System.out.println("Product: " + getName());
+        System.out.println("Price: $" + getPrice());
     }
 }

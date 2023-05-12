@@ -12,8 +12,9 @@ public class Mechanism extends Component {
         this.type = type;
     }
 
-    public void setType(String type) {
+    public boolean setType(String type) {
         this.type = type;
+        return true;
     }
 
     public String getType() {
@@ -22,6 +23,7 @@ public class Mechanism extends Component {
 
     @Override
     public void show() {
+        System.out.println("Mechanism:");
         super.show();
         System.out.println("Mechanism Type: " + getType());
     }

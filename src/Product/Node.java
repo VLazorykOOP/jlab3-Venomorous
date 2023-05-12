@@ -12,8 +12,9 @@ public class Node extends Component {
         this.nodeId = nodeId;
     }
 
-    public void SetNodeId(int nodeId){
+    public boolean setNodeId(int nodeId){
         this.nodeId = nodeId;
+        return true;
     }
 
     public int getNodeId() {
@@ -22,6 +23,7 @@ public class Node extends Component {
 
     @Override
     public void show() {
+        System.out.println("Node:");
         super.show();
         System.out.println("Node ID: " + getNodeId());
     }
